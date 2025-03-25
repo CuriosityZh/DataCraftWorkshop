@@ -1,0 +1,23 @@
+
+---
+
+### **3. main_LogHoundLite**  
+**Description:**  
+A script to sniff through logs and find repeating errors, suspicious keywords, or bursts of activity.
+
+#### **README.md**
+```markdown
+# LogHoundLite - Lightweight Log Scanner
+
+LogHoundLite helps spot problem patterns and frequent issues in log files from servers or apps.
+
+## Features
+- Count repeated lines  
+- Filter by keywords  
+- Quick visual summaries  
+
+## Usage
+```bash
+git clone https://github.com/your-username/main_LogHoundLite.git
+cd main_LogHoundLite
+python analyze.py logs/system.log
