@@ -1,0 +1,23 @@
+
+---
+
+### **2. main_APILatencyReporter**  
+**Description:**  
+A monitoring script that pings endpoints and reports response times and HTTP status codes.
+
+#### **README.md**
+```markdown
+# APILatencyReporter - Endpoint Health Tracker
+
+APILatencyReporter allows developers to test response speed and availability of any set of HTTP endpoints.
+
+## Features
+- Tracks uptime and latency  
+- Prints response summaries  
+- Optional output to CSV  
+
+## Usage
+```bash
+git clone https://github.com/your-username/main_APILatencyReporter.git
+cd main_APILatencyReporter
+python monitor.py
